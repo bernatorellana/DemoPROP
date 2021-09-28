@@ -11,5 +11,12 @@ public class Gat extends Mascota{
         super(pId, pNom, pEdat,pRaca, pVacunat);
         
     }
+
+    @Override
+    public String toString() {
+        return "Gat{" + '}';
+    }
+     
+     
     
 }
