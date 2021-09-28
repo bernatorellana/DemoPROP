@@ -53,7 +53,7 @@ public class Programa {
         }
         System.out.println("========================");
         System.out.println("========================");
-
+        System.out.println("========================");
         //----------------------------------------------------------------------
         Propietari p1 = new Propietari("11111111H", "Paco");
         Propietari p2 = new Propietari("22222222H", "Marta");
