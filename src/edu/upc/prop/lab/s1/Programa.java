@@ -40,18 +40,20 @@ public class Programa {
         mascotes.add(gat3);
         //Collections.sort(mascotes); // ORDRE NATURAL
         //Collections.sort(mascotes, Collections.reverseOrder()); // ORDRE NATURAL invers
-        
+
         // Comparació "adhoc" usant un Comparator
-        Collections.sort(mascotes,new Comparator<Mascota>(){
+        Collections.sort(mascotes, new Comparator<Mascota>() {
             @Override
             public int compare(Mascota arg0, Mascota arg1) {
-                return arg1.getId()-arg0.getId();
+                return arg1.getId() - arg0.getId();
             }
         });
-        for(Mascota m:mascotes) {
-            System.out.println(">"+m);
+        for (Mascota m : mascotes) {
+            System.out.println(">" + m);
         }
         System.out.println("========================");
+        System.out.println("========================");
+
         //----------------------------------------------------------------------
         Propietari p1 = new Propietari("11111111H", "Paco");
         Propietari p2 = new Propietari("22222222H", "Marta");
